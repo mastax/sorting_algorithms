@@ -31,7 +31,7 @@ void insertion_sort_list(listint_t **list)
 
     if (!list || !*list || !(*list)->next)
         return ;
-    i = (*list)->next;
+    key = (*list)->next;
     while (key)
     {
         je = key;
