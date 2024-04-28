@@ -15,7 +15,7 @@ void shell_sort(int *array, size_t size)
 		gp = (3 * gp) + 1;
 	for (gp = (gp - 1) / 3; gp > 0; gp = (gp - 1) / 3)
 	{
-		for (i = gp; x < (int)size; x += 1)
+		for (x = gp; x < (int)size; x += 1)
 		{
 			temp = array[x];
 
