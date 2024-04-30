@@ -1,6 +1,7 @@
 #ifndef _SORT_H
 #define _SORT_H
 
+#include <stddef.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
