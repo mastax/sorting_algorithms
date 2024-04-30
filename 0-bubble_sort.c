@@ -6,7 +6,6 @@
  * @array: array of integers,
  * @size: size of the array that we want sort,
 */
-void bubble_sort(int *array, size_t size);
 void bubble_sort(int *array, size_t size)
 {
     int temp;
